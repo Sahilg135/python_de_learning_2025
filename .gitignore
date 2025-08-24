@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+.build/
+# data
+data/*
+!data/.gitkeep
+
+# VS Code
+.vscode/

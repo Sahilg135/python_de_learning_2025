@@ -1,0 +1,12 @@
+black
+ruff
+pytest
+ipykernel
+jupyter
+pandas
+numpy
+pyarrow
+python-dotenv
+requests
+loguru
+mypy

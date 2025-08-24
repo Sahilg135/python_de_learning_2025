@@ -36,3 +36,17 @@ jupyter notebook
 - Type hints, docstrings, logging.
 - Notebook results -> refactor to `src/` and add tests.
 - Commit style: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`.
+---
+
+## Development Notes
+
+- This repo uses **.gitignore** to keep the history clean:
+  - `__pycache__/`, `.venv/`, `*.log`, `dist/` → ignored (Python build/venv junk)
+  - `.ipynb_checkpoints/` → ignored (Jupyter’s auto-saves, not useful in Git)
+  - `.vscode/`, `.idea/` → ignored (local IDE settings)
+
+- **nbstripout** is installed:
+  - Strips notebook metadata (execution counts, IDs) on commit
+  - Ensures diffs only show *real content/code changes*
+
+👉 This makes the repo **production-style**, avoiding noise and keeping history clean.

@@ -53,3 +53,6 @@ desktop.ini
 *.h5
 *.bak
 *.swp
+.venv/
+.ipynb_checkpoints/
+*.code-workspace

@@ -1,2 +1,4 @@
-# Strip metadata from Jupyter notebooks before committing
-*.ipynb filter=nbstripout
+* text=auto eol=lf
+*.bat eol=crlf
+*.ps1 eol=crlf
+*.ipynb text eol=lf

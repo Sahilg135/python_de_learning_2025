@@ -43,11 +43,11 @@ git commit -m "chore: scaffold repo with .gitignore and placeholders"
 git remote add origin https://github.com/Sahilg135/sql_de_lab.git
 git push -u origin main
 cd "C:\Users\hp\Git\sql_de_learning_2025"
-git remote -v  
-git branch --show-current  
+git remote -v
+git branch --show-current
 git fetch origin
 git pull --rebase origin main
-git status  
+git status
 mkdir -p datasets/raw/csv
 clear
 cd "/c/Users/hp/Git/sql_de_learning_2025"
@@ -244,7 +244,7 @@ git config --global core.autocrlf true
 git status
 ls
 ls -la
-ls -alF 
+ls -alF
 clear
 ls -la
 cd /c/Users/hp/Git/python_de_learning_2025

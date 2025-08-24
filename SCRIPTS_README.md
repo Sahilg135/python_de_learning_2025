@@ -27,10 +27,3 @@ venv.sh – Activates the virtualenv (works on Windows Git Bash and Linux/Mac).
 qa.sh – Lints (Ruff), formats (Black), and runs tests (pytest).
 
 Tip: If a script isn’t executable, run chmod +x scripts/*.sh once.
-
-
-
-
-
-
-
